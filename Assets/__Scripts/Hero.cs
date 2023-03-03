@@ -172,4 +172,15 @@ public class Hero : MonoBehaviour {
             w.SetType(eWeaponType.none);
         }
     }
+
+    public void Boost(float buff)
+    {
+        Debug.Log("ability");
+        speed = speed * buff;
+    }
+
+    public void ResetBoost(float buff)
+    {
+        speed = speed / buff;
+    }
 }
