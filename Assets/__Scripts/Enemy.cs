@@ -24,7 +24,11 @@ public class Enemy : MonoBehaviour
     protected BoundsCheck bndCheck;
     protected bool calledShipDestroyed = false;
 
+    
+
     // This is a property: A method that acts like a field
+
+  
     public Vector3 pos
     {
         get
@@ -90,12 +94,16 @@ public class Enemy : MonoBehaviour
                     {
                         calledShipDestroyed = true;
                         Main.SHIP_DESTROYED(this);
+                        
                     }
                     Destroy(this.gameObject);
+                    
+                    
                 }
             }
             // Destroy the projectile regardless
             Destroy(otherGO);
+            
 
         }
         else
