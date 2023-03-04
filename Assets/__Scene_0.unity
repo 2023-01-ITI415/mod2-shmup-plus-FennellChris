@@ -735,7 +735,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1f0f81474731e47e3a5eac0a7bc259ab, type: 3}
+  m_audioClip: {fileID: 8300000, guid: eaed5dd4b92c940559003b04da130085, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1524,13 +1524,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89945d366f74234594d375c5597c723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 35
   rollMult: -45
   pitchMult: 30
   gameRestartDelay: 2
   projectilePrefab: {fileID: 1899541879965282, guid: 59a4640edad59f94a87c1d235355cb6a,
     type: 3}
-  projectileSpeed: 40
+  projectileSpeed: 70
   weapons:
   - {fileID: 1794608309}
   - {fileID: 1854078992}
